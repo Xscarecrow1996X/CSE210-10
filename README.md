@@ -13,4 +13,5 @@ The cycles turn white.
 Players keep moving and turning but don't run into each other.
 
 Cycle
-Authors Tyson Mergel (Nip20001@byui.edu),Zanna Johnson (josafennaanna@gmail.com), Loran Mills (lsmills24@byui.edu,Juan David Engelbrecht
+Authors Tyson Mergel (Nip20001@byui.edu),Zanna Johnson (josafennaanna@gmail.com), Loran Mills (lsmills24@byui.edu,Juan David Engelbrecht, Emma Amos (elovestodraw@gmail.com)
+
