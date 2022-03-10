@@ -1,9 +1,9 @@
 # This will be the Director file 
-class director:
-  def __init__(self, video_service):
+class Director:
+    def __init__(self, video_service):
     
         self._video_service = video_service
-  def start_game(self, cast, script):
+    def start_game(self, cast, script):
 
 
         self._video_service.open_window()
@@ -13,7 +13,7 @@ class director:
             self._execute_actions("output", cast, script)
         self._video_service.close_window()
 
-def _execute_actions(self, group, cast, script):
+    def _execute_actions(self, group, cast, script):
         
         actions = script.get_actions(group)    
         for action in actions:
