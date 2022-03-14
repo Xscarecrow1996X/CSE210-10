@@ -1,5 +1,8 @@
 # This will be the Director file
+import imp
 from Game.Services.Video_service import VideoService
+from Game.Casting.Cast import Cast
+from Game.Scripting.Script import Script
 
 class Director:
     def __init__(self, video_service):
