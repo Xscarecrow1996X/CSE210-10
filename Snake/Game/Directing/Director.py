@@ -1,4 +1,6 @@
-# This will be the Director file 
+# This will be the Director file
+from Game.Services.Video_service import VideoService
+
 class Director:
     def __init__(self, video_service):
     
