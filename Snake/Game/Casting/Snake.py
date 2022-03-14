@@ -1,10 +1,8 @@
 import constants
 from Game.Casting.Actor import Actor
-<<<<<<< HEAD:Snake/Game/Casting/snake.py
-from Game.Shared.point import Point
-=======
+
 from Game.Shared.Point import Point
->>>>>>> 35e6b8e1c97a4fae8ea34ba2c631122a8dc4bcf3:Snake/Game/Casting/Snake.py
+
 
 
 class Snake(Actor):
