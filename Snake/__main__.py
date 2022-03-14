@@ -4,12 +4,12 @@ from Game.Casting.Cast import Cast
 from Game.Casting.Snake import Snake
 from Game.Scripting.Script import Script
 from Game.Scripting.Control_actors_action import ControlActorsAction
-from Game.Scripting.move_actors_action import MoveActorsAction
-from Game.Scripting.handle_collisions_action import HandleCollisionsAction
-from Game.Scripting.draw_actors_action import DrawActorsAction
+from Game.Scripting.Move_actors_action import MoveActorsAction
+from Game.Scripting.Handle_collisions_action import HandleCollisionsAction
+from Game.Scripting.Draw_actors_action import DrawActorsAction
 from Game.Directing.Director import Director
 from Game.Services.Keyboard import KeyboardService
-from Game.Services.video_service import VideoService
+from Game.Services.Video_service import VideoService
 from Game.Shared.Color import Color
 from Game.Shared.Point import Point
 
