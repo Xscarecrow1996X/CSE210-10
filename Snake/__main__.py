@@ -1,12 +1,12 @@
 import constants 
 
-from Game.Casting.cast import Cast
-from Game.Casting.snake import Snake
-from Game.Scripting.script import Script
-from Game.Scripting.control_actors_action import ControlActorsAction
+from Game.Casting.Cast import Cast
+from Game.Casting.Snake import Snake
+from Game.Scripting.Script import Script
+from Snake.game.scripting.control_actors_action import ControlActorsAction
 from Game.Scripting.move_actors_action import MoveActorsAction
 from Game.Scripting.handle_collisions_action import HandleCollisionsAction
-from Game.Scripting.draw_actors_action import DrawActorsAction
+from Snake.game.scripting.draw_actors_action import DrawActorsAction
 from Game.Directing.Director import Director
 from Game.Services.Keyboard import KeyboardService
 from Game.Services.video_service import VideoService
