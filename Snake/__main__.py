@@ -3,10 +3,10 @@ import constants
 from Game.Casting.Cast import Cast
 from Game.Casting.Snake import Snake
 from Game.Scripting.Script import Script
-from Snake.game.scripting.control_actors_action import ControlActorsAction
+from CSE210-10.Snake.game.scripting.control_actors_action import ControlActorsAction
 from Game.Scripting.move_actors_action import MoveActorsAction
 from Game.Scripting.handle_collisions_action import HandleCollisionsAction
-from Snake.game.scripting.draw_actors_action import DrawActorsAction
+from CSE210-10.Snake.game.scripting.draw_actors_action import DrawActorsAction
 from Game.Directing.Director import Director
 from Game.Services.Keyboard import KeyboardService
 from Game.Services.video_service import VideoService
