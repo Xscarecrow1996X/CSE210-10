@@ -1,4 +1,4 @@
-from game.casting.actor import Actor
+from Game.Casting.Actor import Actor
 
 
 class Score(Actor):

@@ -1,6 +1,6 @@
 import constants
-from game.scripting.action import Action
-from game.shared.point import Point
+from Game.Scripting.Action import Action
+from Game.Shared.point import Point
 
 
 class ControlActorsAction(Action):

@@ -1,6 +1,6 @@
 import constants
-from game.casting.actor import Actor
-from game.shared.point import Point
+from Game.Casting.Actor import Actor
+from Game.Shared.point import Point
 
 
 class Cycle(Actor):
