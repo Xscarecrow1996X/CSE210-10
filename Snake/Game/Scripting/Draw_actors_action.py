@@ -6,7 +6,6 @@ class DrawActorsAction(Action):
     An output action that draws all the actors.
     
     The responsibility of DrawActorsAction is to draw all the actors.
-
     Attributes:
         _video_service (VideoService): An instance of VideoService.
     """
@@ -21,7 +20,6 @@ class DrawActorsAction(Action):
 
     def execute(self, cast, script):
         """Executes the draw actors action.
-
         Args:
             cast (Cast): The cast of Actors in the game.
             script (Script): The script of Actions in the game.

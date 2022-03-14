@@ -1,6 +1,10 @@
 import constants
 from Game.Scripting.Action import Action
+<<<<<<< HEAD:Snake/game/scripting/control_actors_action.py
 from Game.Shared.point import Point
+=======
+from Game.Shared.Point import Point
+>>>>>>> 35e6b8e1c97a4fae8ea34ba2c631122a8dc4bcf3:Snake/Game/Scripting/Control_actors_action.py
 
 
 class ControlActorsAction(Action):
@@ -8,7 +12,6 @@ class ControlActorsAction(Action):
     An input action that controls the snake.
     
     The responsibility of ControlActorsAction is to get the direction and move the snake's head.
-
     Attributes:
         _keyboard_service (KeyboardService): An instance of KeyboardService.
     """
@@ -24,7 +27,6 @@ class ControlActorsAction(Action):
 
     def execute(self, cast, script):
         """Executes the control actors action.
-
         Args:
             cast (Cast): The cast of Actors in the game.
             script (Script): The script of Actions in the game.

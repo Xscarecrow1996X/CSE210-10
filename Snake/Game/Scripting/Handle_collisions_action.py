@@ -1,7 +1,11 @@
 import constants
 from Game.Casting.Actor import Actor
 from Game.Scripting.Action import Action
+<<<<<<< HEAD:Snake/Game/Scripting/handle_collisions_action.py
 from game.shared.point import Point
+=======
+from Game.Shared.Point import Point
+>>>>>>> 35e6b8e1c97a4fae8ea34ba2c631122a8dc4bcf3:Snake/Game/Scripting/Handle_collisions_action.py
 
 class HandleCollisionsAction(Action):
     """
