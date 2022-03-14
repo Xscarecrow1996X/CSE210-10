@@ -1,7 +1,7 @@
 import constants
-from game.casting.actor import Actor
-from game.scripting.action import Action
-from game.shared.point import Point
+from Game.Casting.Actor import Actor
+from Game.Scripting.Action import Action
+from Game.Shared.Point import Point
 
 class HandleCollisionsAction(Action):
     """
