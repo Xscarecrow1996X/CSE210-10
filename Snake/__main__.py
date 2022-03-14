@@ -3,7 +3,7 @@ import constants
 from Game.Casting.Cast import Cast
 from Game.Casting.Snake import Snake
 from Game.Scripting.Script import Script
-from Game.Scripting.control_actors_action import ControlActorsAction
+from Game.Scripting.Control_actors_action import ControlActorsAction
 from Game.Scripting.move_actors_action import MoveActorsAction
 from Game.Scripting.handle_collisions_action import HandleCollisionsAction
 from Game.Scripting.draw_actors_action import DrawActorsAction
