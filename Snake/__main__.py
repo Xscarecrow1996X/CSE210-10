@@ -11,7 +11,7 @@ from Game.Directing.Director import Director
 from Game.Services.Keyboard import KeyboardService
 from Game.Services.video_service import VideoService
 from Game.Shared.Color import Color
-from Game.Shared.point import Point
+from Game.Shared.Point import Point
 
 
 def main():
