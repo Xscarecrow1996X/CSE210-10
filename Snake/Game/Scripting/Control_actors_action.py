@@ -1,7 +1,7 @@
 import constants
 from Game.Scripting.Action import Action
-from Game.Shared.Point import Point
 
+from Game.Shared.Point import Point
 
 class ControlActorsAction(Action):
     """

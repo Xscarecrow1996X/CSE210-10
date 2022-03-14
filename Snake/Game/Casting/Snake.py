@@ -1,6 +1,8 @@
 import constants
 from Game.Casting.Actor import Actor
+
 from Game.Shared.Point import Point
+
 
 
 class Snake(Actor):
