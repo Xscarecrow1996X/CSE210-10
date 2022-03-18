@@ -2,6 +2,8 @@ import constants
 
 from Game.Casting.Cast import Cast
 from Game.Casting.Snake import Snake
+from Game.Casting.Food import Food
+from game.Casting.Score import Score
 from Game.Scripting.Script import Script
 from Game.Scripting.Control_actors_action import ControlActorsAction
 from Game.Scripting.Move_actors_action import MoveActorsAction
