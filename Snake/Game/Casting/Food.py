@@ -1,7 +1,7 @@
 import random
 import constants
-from Game.Casting.Actor import Actor
-from Game.Shared.Point import Point
+from game.casting.actor import Actor
+from game.shared.point import Point
 
 
 class Food(Actor):
@@ -23,7 +23,7 @@ class Food(Actor):
 
     def reset(self):
         """Selects a random position and points that the food is worth."""
-        self._points = random.randint(1, 8)
+        self._points = 1
         x = random.randint(1, constants.COLUMNS - 1)
         y = random.randint(1, constants.ROWS - 1)
         position = Point(x, y)
